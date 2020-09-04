@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    top : 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    height: 91px;
+}
+
+main {
+    position: relative;
+    top: 95px;
+}
+

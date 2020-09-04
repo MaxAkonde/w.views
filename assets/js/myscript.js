@@ -26,12 +26,11 @@ function displayResults(results) {
         var url = encodeURI(`https://en.wikipedia.org/wiki/${result.title}`);
 
         searchResults.insertAdjacentHTML('beforeend',
-            `<article>
+            `<article class="mb-1">
                 <h4><a href="${url}" target = "_blank" rel="noopener">${result.title}</a></h4>
                 <p>
                     ${result.snippet}
                 </p>
-                <small>${url}</small>
             </article>`
         );
     });
